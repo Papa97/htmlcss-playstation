@@ -15,6 +15,16 @@
 #jumbo_col {
   height: 375px;
 }
+
+/* MAIN  */
+
+#it_takes_two_bg {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position-x: center;
+}
 /* DEBUG  */
 
 .debug .header_bt {
