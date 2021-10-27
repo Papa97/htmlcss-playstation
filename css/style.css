@@ -1,0 +1,54 @@
+/* HEADER  */
+
+.header_top {
+  height: 50px;
+}
+
+/* DEBUG  */
+
+.debug .header_bt {
+  background-color: red;
+  height: 100px;
+}
+
+.debug .header_bt div {
+  background-color: yellow;
+  border: 1px solid;
+}
+
+.debug .ms_jumbo {
+  height: 400px;
+  background-color: blue;
+}
+
+.debug .ms_jumbo .row div {
+  border: 1px solid;
+  height: 400px;
+}
+
+.debug main .container-fluid .row {
+  background-color: purple;
+}
+
+.debug main .container-fluid .row .col {
+  border: 1px solid;
+  height: 200px;
+}
+
+.debug .container .row {
+  background-color: violet;
+}
+
+.debug .container .row .col {
+  border: 1px solid;
+  height: 200px;
+}
+
+.debug footer .container-fluid .row {
+  background-color: green;
+}
+
+.debug footer .container-fluid .row .col {
+  border: 1px solid;
+  height: 200px;
+}
