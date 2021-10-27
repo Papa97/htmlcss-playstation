@@ -12,6 +12,9 @@
   background-position-x: center;
 }
 
+#jumbo_col {
+  height: 375px;
+}
 /* DEBUG  */
 
 .debug .header_bt {
