@@ -4,6 +4,14 @@
   height: 50px;
 }
 
+#jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position-x: center;
+}
+
 /* DEBUG  */
 
 .debug .header_bt {
@@ -18,7 +26,6 @@
 
 .debug .ms_jumbo {
   height: 400px;
-  background-color: blue;
 }
 
 .debug .ms_jumbo .row div {
