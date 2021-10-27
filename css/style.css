@@ -25,6 +25,10 @@
   min-height: 400px;
   background-position-x: center;
 }
+
+#playstation_plus {
+  background-color: rgb(179, 180, 161);
+}
 /* DEBUG  */
 
 .debug .header_bt {
