@@ -16,6 +16,11 @@
   height: 375px;
 }
 
+#ms_sony {
+  margin-top: 1rem;
+  width: 10%;
+}
+
 /* MAIN  */
 
 #it_takes_two_bg {
@@ -29,6 +34,22 @@
 #playstation_plus {
   background-color: rgb(179, 180, 161);
 }
+
+/* FOOTER  */
+
+#ms_globe {
+  width: 2%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
 /* DEBUG  */
 
 .debug .header_bt {
