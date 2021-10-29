@@ -12,6 +12,19 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="">
     <header>
@@ -20,8 +33,46 @@
       </div>
       <div class="header_bt container-fluid">
         <div class="row">
-          <div class="col-8"><img src="img/play_logo.svg" alt="" /></div>
-          <div class="col-4 text-end">2</div>
+          <div class="col-8">
+            <nav>
+              <ul class="list-unstyled d-flex align-content-center">
+                <li>
+                  <img src="img/play_logo.svg" alt="" />
+                </li>
+                <li class="d-none d-lg-block">Giochi</li>
+                <li class="d-none d-lg-block">Hardware</li>
+                <li class="d-none d-lg-block">Servizi</li>
+                <li class="d-none d-lg-block">Novita'</li>
+                <li class="d-none d-lg-block">Fai aquisiti</li>
+                <li class="d-none d-lg-block">Supporto</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-4 text-end">
+            <nav>
+              <ul
+                class="
+                  list-unstyled
+                  d-flex
+                  justify-content-end
+                  align-content-center
+                "
+              >
+                <li class="d-lg-none border-2">
+                  <i class="fas fa-bars text-dark"></i>
+                </li>
+                <li class="d-none d-lg-block">My PlayStation</li>
+                <li class="d-none d-lg-block text-white">
+                  <div class="d-inline bg-secondary rounded-pill px-3 py-2">
+                    Accedi
+                  </div>
+                </li>
+                <li class="d-none d-lg-block">
+                  <img src="img/lens.svg" alt="#" class="w-50" />
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
       <div class="ms_jumbo container-fluid text-white" id="jumbotron">
@@ -118,7 +169,7 @@
 
       <!-- ECCO PLAYSTATION  -->
 
-      <div class="container-fluid text-center">
+      <div class="container-fluid text-center mt-4">
         <div class="text-uppercase text-primary">play has no limits</div>
         <div><h3>Ecco la PlayStation 5</h3></div>
         <div class="fs-6">
@@ -471,7 +522,7 @@
 
       <!-- PLAYSTATION PLUS  -->
 
-      <div class="container-fluid" id="playstation_plus">
+      <div class="container-fluid mt-5" id="playstation_plus">
         <div class="row row-cols-1 row-cols-md-2">
           <div class="col">
             <div>
@@ -502,8 +553,15 @@
       </div>
 
       <!-- 3 BOX  CON IMMAGINE  -->
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
+      <div class="container mt-5">
+        <div class="text-center">
+          <div><h2>Nuovi sconti sul PlayStatio Store</h2></div>
+          <div class="text-secondary">
+            Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e
+            PS VR, tutti in un unico posto
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mt-3">
           <div class="col mt-4">
             <div>
               <img
@@ -537,9 +595,9 @@
       <!-- div con immagine  -->
 
       <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-2 bg-primary">
+        <div class="row row-cols-1 row-cols-md-2 ms_dark-blue">
           <div class="col">
-            <div>
+            <div class="d-flex flex-column justify-content-center h-100">
               <div>
                 <img
                   src="img/ps-now-logo-two-column.png"
@@ -547,12 +605,12 @@
                   alt=""
                 />
               </div>
-              <div>
+              <div class="text-white my-4">
                 Ottieni l'accesso immediato a una vastissima raccolta di oltre
                 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi
                 titoli aggiunti ogni mese
               </div>
-              <div class="my-3">
+              <div>
                 <a
                   href="#"
                   class="text-decoration-none rounded-pill bg-light p-2"
@@ -576,19 +634,26 @@
       <!-- SOCIAL  -->
 
       <div class="container">
-        <div>Seguici sui social</div>
+        <div class="text-center mt-4">
+          <h3 class="fs-1">Seguici sui social</h3>
+        </div>
         <div class="row row-cols-2 row-cols-sm-4">
           <div class="col mt-3">
-            <img src="img/twitter.jpg" class="w-100" alt="" />
+            <a href="https://twitter.com/?lang=it">
+              <img src="img/twitter.jpg" class="w-100" alt=""
+            /></a>
           </div>
           <div class="col mt-3">
-            <img src="img/facebook.jpg" class="w-100" alt="" />
+            <a href="https://www.youtube.com/">
+            <img src="img/facebook.jpg" class="w-100" alt="" /></a>
           </div>
           <div class="col mt-3">
-            <img src="img/instagram.jpg" class="w-100" alt="" />
+            <a href="https://www.instagram.com/">
+            <img src="img/instagram.jpg" class="w-100" alt="" /></a>
           </div>
           <div class="col mt-3">
-            <img src="img/youtube.png" class="w-100" alt="" />
+            <a href="https://www.youtube.com/"></a>
+            <img src="img/youtube.png" class="w-100" alt="" /></a>
           </div>
         </div>
       </div>

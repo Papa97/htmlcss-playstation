@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .ms_rounded {
   border-radius: 25px;
 }
@@ -6,12 +10,18 @@
   border-radius: 20px;
 }
 
+.ms_dark-blue {
+  background-color: #001852;
+}
 /* HEADER  */
 
 .header_top {
   height: 50px;
 }
 
+.header_bt {
+  height: 50px;
+}
 #jumbotron {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
@@ -29,6 +39,10 @@
   width: 10%;
 }
 
+nav ul li {
+  padding: 0 10px;
+  line-height: 50px;
+}
 /* MAIN  */
 
 #it_takes_two_bg {
